@@ -1,5 +1,5 @@
 import type { FC } from 'react';
-import './Footer.scss';
+import './Footer.sss';
 
 export const Footer: FC = () => {
   return (
