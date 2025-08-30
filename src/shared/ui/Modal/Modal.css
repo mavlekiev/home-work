@@ -1,10 +1,10 @@
 .modal-overlay {
   position: fixed;
-  top: 0;
+  top: 1rem;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(246, 242, 242, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .modal-content {
-  background: white;
+  background: rgb(210, 211, 212);
   padding: 24px;
   border-radius: 12px;
   max-width: 90vw;
