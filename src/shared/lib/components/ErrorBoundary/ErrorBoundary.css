@@ -10,8 +10,8 @@
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+}
 
-  &:hover {
+.error__button:hover {
     background-color: #0056b3;
-  }
 }

@@ -1,0 +1,71 @@
+.app-button {
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.app-button:focus {
+  box-shadow: 0 0 0 2px rgba(82, 82, 83, 0.3);
+}
+
+.app-button__small {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.app-button__medium {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.app-button__large {
+  padding: 14px 28px;
+  font-size: 18px;
+}
+
+.app-button__primary {
+  background-color: #526a83;
+  color: white;
+  border: 1px solid #0056b3;
+}
+
+.app-button__primary:hover:not(.app-button__disabled) {
+  background-color: #35393d;
+}
+
+.app-button__secondary {
+  background-color: #6c757d;
+  color: white;
+  border: 1px solid #545b62;
+}
+
+.app-button__secondary:hover:not(.app-button__disabled) {
+  background-color: #090909;
+}
+
+.app-button__outline {
+  background-color: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.app-button__outline:hover:not(.app-button__disabled) {
+  background-color: #e3f2fd;
+}
+
+.app-button__full-width {
+  width: 100%;
+}
+
+.app-button__disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
