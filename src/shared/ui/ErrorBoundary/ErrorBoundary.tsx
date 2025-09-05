@@ -1,6 +1,6 @@
 import type { ErrorInfo, ReactNode } from "react";
 import { Component } from "react";
-import "./ErrorBoundary.scss";
+import styles from './ErrorBoundary.module.css';
 
 interface ErrorBoundaryProps {
   children: ReactNode;
@@ -30,12 +30,12 @@ export default class ErrorBoundary extends Component<
   render(): ReactNode {
     if (this.state.hasError) {
       return (
-        <div className="error-container">
+        <div className={styles.error__container}> 
           <h2>
             К сожалению, произошла ошибка в приложении.
           </h2>
           <button
-            className="error__button"
+            className={styles.error__button}
             onClick={() => this.setState({ hasError: false })}
           >
             Назад

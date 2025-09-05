@@ -1,5 +1,4 @@
 import type { FC } from "react"
-import './PostCard.css'
 
 interface PostCardProps {
   title: string;
@@ -8,7 +7,7 @@ interface PostCardProps {
 
 export const PostCard: FC<PostCardProps> = ({ title, body }) => {
   return (
-    <div className='card'>
+    <div>
       <h3>{title}</h3>
       <p>{body}</p>
     </div>

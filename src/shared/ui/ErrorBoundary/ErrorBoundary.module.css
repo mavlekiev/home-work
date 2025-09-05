@@ -1,4 +1,4 @@
-.error-container {
+.error__container {
   padding-top: 35dvh;
 }
 
@@ -10,8 +10,8 @@
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+}
 
-  &:hover {
-    background-color: #0056b3;
-  }
+.error__button:hover {
+  background-color: #0056b3;
 }

@@ -1,10 +1,10 @@
 import type { FC } from 'react';
-import './Footer.scss';
+import styles from './/Footer.module.css';
 
 export const Footer: FC = () => {
   return (
-    <footer className='footer'>
-      <p className='footer__text'>© 2025 Мой Блог. Все права защищены.</p>
+    <footer className={styles.footer}>
+      <p className={styles.footer__text}>© 2025 Мой Блог. Все права защищены.</p>
     </footer>
   );
 }

@@ -1,12 +1,6 @@
 import type { FC } from "react";
 import { PostCard } from "../../entities/post/ui/PostCard";
-import './PostList.css'
-
-const posts = [
-  { id: 1, title: 'Первый пост', body: 'Это содержимое первого поста.' },
-  { id: 2, title: 'Второй пост', body: 'Это содержимое второго поста.' },
-  { id: 3, title: 'Третий пост', body: 'Это содержимое третьего поста.' },
-];
+import { posts } from "../../shared/mocks/posts";
 
 export const PostList: FC = () => {
   return (
